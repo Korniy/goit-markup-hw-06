@@ -281,6 +281,11 @@ span {
   opacity: 1;
 }
 
+.modal-icon:hover,
+.modal-icon:focus {
+  fill: var(--accent-text-color);
+}
+
 .modal-buttom {
   display: flex;
   align-items: center;
@@ -295,6 +300,31 @@ span {
   background-color: var(--main-light-bg);
   border-radius: 50%;
   cursor: pointer;
+}
+
+.modal-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.hero-label {
+}
+.hero-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.hero-textarea {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 /* Секція переваги ADVANTAGES */
