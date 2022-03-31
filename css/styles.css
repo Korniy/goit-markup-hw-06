@@ -364,7 +364,11 @@ span {
 }
 
 .hero-group {
+  display: flex;
+  align-items: center;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-label-text {
