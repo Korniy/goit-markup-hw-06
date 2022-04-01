@@ -344,6 +344,10 @@ span {
   border-radius: 4px;
 }
 
+.form-input:focus + .modal-icon-form {
+  fill: var(--accent-text-color);
+}
+
 .modal-icon-form {
   position: absolute;
   top: 28px;
