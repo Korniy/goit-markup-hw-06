@@ -322,6 +322,7 @@ span {
 .form-field {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .label-text {
@@ -343,10 +344,20 @@ span {
   border-radius: 4px;
 }
 
+.modal-icon-form {
+  position: absolute;
+  top: 28px;
+  left: 12px;
+  width: 18px;
+  height: 18px;
+}
+
 .form-input-textarea {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  resize: none;
 }
 
 .form-field textarea::placeholder {
