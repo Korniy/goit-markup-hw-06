@@ -868,6 +868,7 @@ span {
   height: 50px;
 
   background: var(--black-bg-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-form input::placeholder {
